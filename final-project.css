@@ -1,0 +1,362 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBD8B7;
+}
+
+h1{
+    color: #2980B9 ;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 20px;
+} 
+
+h2 {
+    color: #962D2D;
+    text-align: center;
+    
+}
+
+#jumbotron {
+    font-size: 20px;
+   padding: 60px;
+   background-image: url("travel.jpg"); 
+   text-align: center;
+   background-size: cover;
+   height: 500px;
+}
+
+#jumbotron h2{
+    color: #641E16;
+}
+
+#jumbotron h3{
+    color: #EB984E;
+}
+
+
+#jumbotron img{
+    border-radius: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+nav {
+    background-color:#99BBAD;
+    padding: 1px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+
+img.profile{
+   
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+p.profile{
+    margin-left: 150px;
+    margin-right: 130px;
+    text-align: justify;
+    text-indent: 45px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table.profile-name{
+    border-top: 1px black solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+table.profile-name2{
+    border-top: 1px black solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#row th{
+    width: 500px;
+    height: 50px;
+
+}
+
+#row td{ 
+    width: 500px;
+    height: 55px;
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(48, 48, 48, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #C6A9A3;
+}
+
+.blog-content {
+    display: flex;
+}
+
+.box {
+    box-shadow: 0 5px 5px 0 rgba(48, 48, 48, 0.2);
+    border-radius: 8px;
+    padding: 50px;
+    width: 20px;
+    margin-top: 20px;
+    background-color: #9A8194;
+    margin: 50px 20px;
+    margin-bottom: 100px;
+    flex-grow: 1;
+}
+
+.box img{
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.box h4{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.box p{
+    font-size: 15px;
+    line-height: 28px;
+    height: 90px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.box a{
+    display: inline;
+    color: #fff;
+    background-color: #2196f3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top : 15px;
+
+}
+
+.box a:hover{
+    box-shadow: 0 5px 5px rgba(0,0,0,0,2);
+}
+
+.box.showContent p{
+    height: auto;
+}
+
+.box.showContent a.redmore-btn{
+    background-color: red;
+
+
+}
+
+.container{
+    margin: 20px 80px;
+    color: #962D2D;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourteam-content{
+   flex-basis: 260px;
+   box-shadow: 0 5px 5px 0 rgba(48, 48, 48, 0.2);
+    border-radius: 8px;
+    padding: 50px;
+    width: 20px;
+    margin-top: 20px;
+    background-color: #9A8194;
+    margin: 50px 20px;
+    margin-bottom: 100px;
+
+}
+
+.ourteam-content .profile-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.ourteam-content:hover .profile-img{
+    filter: grayscale(0);
+}
+
+.user-name{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.ourteam-content h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+.container-2{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+
+.contact-content{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left{
+    height: 100%;
+    background: url("travel2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0,0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+
+}
+
+.area{
+    min-height: 150px;
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+
+form {
+    text-align: center;
+    height: 150px;
+    
+}
+
+form input{
+    border-style: inset;
+    width: 35%;
+    height: 20%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+form input[type=submit]{
+    font-size: 15px;
+    background: chocolate;
+    margin-top: 5px;
+    border-style: solid;
+    width: 10%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+form textarea{
+    width: 35%;
+    height: 20%;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color:#9A8194;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 30px;
+}
+
+footer a:hover{
+    font-weight: bold;
+    color: red;
+}
+
+footer a:link{
+    color: blue;
+}
+
+footer a:active{
+    color: green;
+}
